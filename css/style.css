@@ -1,0 +1,122 @@
+/*****BASE STYLES*****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+    float: left;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #77a466;
+    font-size: 18px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+#banner img{
+    width: 1200px;
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top: #77a466 solid 3px;
+    border-bottom: #77a466 solid 3px;
+    
+}
+
+/*****GRID*****/
+.full-width {
+    width: 1200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0;
+    overflow: auto;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+    margin: 0;
+    padding: 25px;
+}
+
+/*****HEADER*****/
+header {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#rogue {
+    color: #77a466;
+}
+
+header ul {
+    color: #77a466;
+    text-transform: uppercase;
+    float: left;
+    word-spacing: 20px;
+    list-style-type: none;
+    padding: 20px 25px 0 400px;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 900;
+    
+}
+
+/*****ABOUT*****/
+#about .full-width {
+    border-bottom: #eeeeee solid 1px;
+}
+
+/*****SPECIALS*****/
+#specials ul {
+    color: #77a466;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+/*****REVIEWS*****/
+
+#reviews .third-width {
+    border-right: #eeeeee solid 1px;
+    border-left: #eeeeee solid 1px;
+}
+
+/*****FOOTER*****/
+footer {
+    text-align: center;
+}
+
+footer .full-width {
+    border-top: #eeeeee solid 1px;
+}
+
+#fresh {
+    color: #77a466;
+    text-transform: lowercase;
+    font-family: 'Brush script MT', cursive;
+    font-size: 18px;
+    font-weight: normal;
+}
